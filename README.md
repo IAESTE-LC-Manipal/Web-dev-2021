@@ -4,7 +4,7 @@ Repository for IAESTE Workshop Web-dev-2021, contains the resources and solution
 
 # Tasks
  - Week 1 <br>
-   <a href="https://github.com/IAESTE-LC-Manipal/Web-dev-2021/blob/main/Week1.md">HTML Basics - Portfolio</a>
+   <a href="https://github.com/IAESTE-LC-Manipal/Web-dev-2021/tree/main/Week%201">HTML Basics - Portfolio</a>
 
 # Instructions
  - Create a new branch with your name using the command `git checkout -b <branch-name>`, with branch name in format
