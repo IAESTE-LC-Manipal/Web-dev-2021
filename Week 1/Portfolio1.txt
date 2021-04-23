@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>
+        Task 1 
+    </title>
+</head>
+<body>
+
+  <p>  <div style="font-family:cursive, 'Arial Narrow', Arial, sans-serif; text-align: center; background-color: palevioletred; text-decoration: pink;" >
+    <h1><b>About me</h1></b></p>  </div>
+ 
+
+
+    <div style="text-align: center;">
+        <img src="SAKSHI.jpg " width="600" height="400"> </div>
+
+       <p><div style="font-family:cursive, 'Arial Narrow', Arial, sans-serif; text-align:left; background-color: palevioletred; text-decoration: pink;" >
+        <h1><b>Introduction</h1></b></p>  </div></p> 
+
+<p><div style="font-family:cursive, 'Arial Narrow', Arial, sans-serif; text-align: center;"> 
+    <h4>My name is Sakshi Shrivastava and I am a first year student at manipal institute of technology pursuing Btech in 
+        branch Electronics and instrumentation. I am  19 years old, I believe in doing whatever you do, do it with all
+        your heart and soul.I have completed my high school education from Urmi School Vadodara and middle school from 
+        International school Seychelles. During Middle school, I completed theDuke of Edinburgh bronze level award in
+        2016 (The Duke of Edinburgh's Award is a youth awards program founded in the United Kingdom). I can speak French,
+        English, and Hindi 
+       </h4></div></p>
+
+ <p><div style="font-family:cursive, 'Arial Narrow', Arial, sans-serif; text-align:left; background-color: palevioletred; text-decoration: pink;" >
+        <h1><b>General details</h1></b></p>  </div></p> 
+                       
+
+ <P><div style="font-size: medium;"><h3><ul>
+<li>Date of birth -  23 APRIL 2002 </li>
+ <li> Email        - saksih23@gmail.com</li>
+<li>  Phone no      - 123456789 </li> </h3>
+</ul></div></P>
+</body>
+</html>
