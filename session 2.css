@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    background: #000;
+    background: #000; color: antiquewhite
 }
 .heading{
     color: antiquewhite; font-family: 'Playfair Display', serif; text-align: center  ; font-size: 65px;
@@ -14,5 +14,5 @@
     height: 200px; width: 200px; float: left;
 }
 .card{
-    font-size: 50px;
+    font-size: 40px; color: antiquewhite;
 }
