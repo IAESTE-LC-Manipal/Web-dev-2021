@@ -1,0 +1,37 @@
+<style>
+body{
+    background-image: url(cube.jpg);
+}
+#main {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 20px black;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(31, 31, 233);
+}
+#para { font-family: 'Times New Roman', Times, serif;
+color: white;
+text-decoration: wavy;
+text-align:center;
+background-image: url(cube.jpg);
+
+
+}
+#contact {
+    color:white;
+    background-color: black;
+    border: 100px black;
+    padding: 50px;
+}
+.button {
+    color: white;
+    background-color: rgb(64, 38, 233);
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    margin: auto;
+    
+
+}
+</style>
