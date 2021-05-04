@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+    ;
+}
+
+.header{
+    /* background-color: rgb(255,136,130); */
+    /* color: cornsilk; */
+    text-align: left;
+    padding: 50px ;
+    font-size: 50px;
+    
+
+}
+.header .h2{
+    /* background-color: rgb(240, 240, 218); */
+    border: 5px solid rgb(255,136,130)
+}
+
+/* .header .img{
+    background-color: rgb(240, 240, 218);
+} */
+
+.leftcolumn .card{
+    padding: 20px;
+    border: 5px solid rgb(255,136,130)
+    /* border: rgb(132, 198, 241); */
+
+}
+
+.leftcolumn .card .h6{
+    padding: 20px;
+    border: 5px solid rgb(255,136,130)
+
+}
+
+.add{
+    padding:20px;
+    border: 5px solid rgb(255,136,130)
+}
+
+.edu{
+    padding: 20px;
+    border: 5px solid rgb(255,136,130)
+}
+
+.skills
+{   padding: 20px;
+    border: 5px solid rgb(255,136,130)}
+
+.socialMedia{
+    padding: 20px;
+    border: 5px solid rgb(255,136,130)
+}
+
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+
