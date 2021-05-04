@@ -1,0 +1,56 @@
+body {
+    font-family: 'New Tegomin', serif;
+    background-color: silver;
+    
+}
+#header{
+    float: top;
+    font-size: large;
+    text-align: center;
+    
+}
+#header p{
+    font-size: 50px;
+}
+#header h1{
+    font-size: 75px;
+}
+
+#header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#about p{
+    font-size: 50px;
+    
+}
+#footer{
+    float: bottom;
+    padding: 15px 15px 15px 15px;
+    align-content: center;
+}
+.toggles{
+    float: right;
+    font-size: medium;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+}
+.card img{
+    width: 64px;
+}
+#sketch img{
+    width: 280px;
+}
+#sketch p{
+    font-size: 50px;
+    text-align: center;
+    
+
+}
+ 
+#about{
+    text-align: center;
+}
