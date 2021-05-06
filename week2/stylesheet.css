@@ -1,0 +1,66 @@
+*{ margin:18px;
+background-color:#00adb5;}
+
+.header{
+    padding: 80px;
+    color:#eeeeee;
+    font-family:Amatic SC;
+    font-size: 20;
+}
+.header h1{font-size: 70;
+padding: bottom 15px;
+}
+.header p{
+    font-family:Spartan;
+    font-size: 14;
+    padding-bottom: 15px;
+}
+.card-1 img{
+    float:left;
+    width:30%;
+    padding-right:15px;
+}
+.card-2 .pic {
+    float: left;
+    width: 30%;
+  }
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card-2 .pic p{font-style: italic;
+      padding-top:20px;
+  }
+.card-1 .container{
+    padding: 30px;
+}
+.card-1,.card-2,.card-3,.card-4{
+    padding-top:20px;
+    padding-bottom:20px;
+    /* still dispalys unequal spacing before card-3*/
+    /*background-color:#aad8d3; isn't overriding the universal background colour completely */
+}
+h2{
+    text-align: left;
+    font-family:Amatic SC;
+    font-size:40px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+p{
+    font-family:Spartan;
+    font: size 30px;
+}
+.footer{
+    text-align: center;
+    padding-bottom:80px;
+    color:#eeeeee;
+}
+.footer h3{
+    font-family:Amatic SC;
+    font-size:40px;
+    text-align:center;
+    padding-bottom:30px;
+    padding-top: 60px;
+
+}
