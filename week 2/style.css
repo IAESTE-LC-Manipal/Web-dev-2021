@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+}
+.header{
+    text-align: center; background-color: #8E9AAF; padding: 100px; font-family: 'Comfortaa', cursive;
+    margin: 20px;
+}
+.header h1 {
+    font-size: 80px; font-family: 'Comfortaa', cursive;
+}
+.header h3{
+    font-size: 40px; font-family: 'Comfortaa', cursive;
+}
+.card{ 
+    background-color: #CBC0D3; text-align: center; padding: 20px;
+    
+}
+.card h4{
+    font-size: 60px; font-family: 'Comfortaa', cursive;
+}
+.skill1 {
+    background-color: #8E9AAF ; padding: 40px; font-family:'Comfortaa', cursive ; font-size: 60px; float: left;
+    width: 50%; height:30%; margin: 20px;
+}
+.skill1 img{
+    float: left; width: 20%; height: 70%;
+}
+
+.skill2 {
+    background-color: #CBC0D3;  padding: 40px; font-family:'Comfortaa', cursive ; font-size: 60px; float: right;
+    width: 50%; height: 30%;margin: 20px; text-align: right;
+}
+.skill2 img {
+    float: right;width: 20%; height: 70%;
+} 
+
+
+.skill3 { background-color: #8E9AAF ; padding: 40px; font-family:'Comfortaa', cursive ; font-size: 60px; float: left;
+    width: 50%; height: 30%; margin: 20px;
+
+}
+.skill3 img{
+    float: left;width: 20%; height: 70%;
+}
