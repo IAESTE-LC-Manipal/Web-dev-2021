@@ -1,0 +1,321 @@
+*{ 
+    background-color:rgb(46, 47, 48);
+    padding: 0%;
+    margin: 0%;
+}
+/* navigation bar */
+.menu { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+  
+    }
+.menu li, a, button { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: seashell;
+    text-decoration: none;
+}
+.logo { 
+    cursor: pointer;
+}
+.Nav-links { 
+    list-style: none;
+   
+}
+.Nav-links li { 
+    display: inline;
+    padding: 0px 20px;
+    
+}
+.Nav-links li a { 
+    transition: all 0.3s ease 0s;
+}
+.Nav-links li a:hover { 
+    color: skyblue;
+}
+button { 
+    padding: 9px 25px;
+    background-color: rgba(62, 64, 65, 0.959);
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+    
+}
+button:hover { 
+    background-color: rgba(72, 121, 146, 0.411);
+}
+/* intro */
+.wrapper { width: 100%;
+    margin: 0 auto;
+    transition: all 0.3s ease 0s ;
+   
+}
+.image-container {
+    background-image: url(images/cover.png);
+    background-color: #F38F80;
+    padding-top: 75px;
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+    padding-left: 20%; 
+    padding-right: 20%;
+    }
+.image-container:after { 
+    content:"";
+    display: block;
+    clear: both;
+}
+ .heading { 
+        text-align: left;
+        color: rgb(18, 30, 36);
+         float: left;
+       padding-top: 50px;
+       background: rgba(62, 64, 65, 0);
+         
+} 
+.photo { 
+    float: right;}
+
+/* text styling */
+
+.heading h3 { 
+    font-family: 'Orelega One', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+background: rgba(62, 64, 65, 0);
+}
+.heading h1 { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    background: rgba(62, 64, 65, 0);
+}
+
+/* about */
+.about { 
+    padding-top: 10px ;
+    
+}
+.title h1 { 
+    width: 55%;
+    float: left;
+    padding-left:22%;
+    font-family:'Orelega One', cursive;
+    font-size: 50px;
+    background-color: #fcf8e8;
+    text-align: center;
+    font-weight: lighter;
+}
+.title:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.text li {
+    width: 65%;
+    float: right;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #fcf8e8;
+    text-align: center;
+    font-weight: bolder;
+    padding-right: 5%;
+    padding-left: 2%;
+}
+.text p {
+    width: 65%;
+    float: right;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #fcf8e8;
+    text-align: center;
+    font-weight: bolder;
+    padding-right: 5%;
+    padding-bottom: 5px;
+    padding-left: 2%;
+}
+.text ul {
+    list-style-position: inside;
+    list-style-type: circle;
+    
+    
+   }
+
+.about::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* skills */
+.skills { 
+    padding-top: 10px ;
+    
+}
+.title-2 h1 { 
+    width: 55%;
+    float: right;
+    padding-right:22%;
+    font-family:'Orelega One', cursive;
+    font-size: 50px;
+    background-color: #d4e2d4;
+    text-align: center;
+    font-weight: lighter;
+}
+.title-2:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-2 li {
+    width: 65%;
+    float: left;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #d4e2d4;
+    text-align: center;
+    font-weight: bolder;
+    padding-right: 5%;
+
+}
+.text-2 p {
+    width: 65%;
+    float: left;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #d4e2d4;
+    text-align: center;
+    font-weight: bolder;
+    padding-right: 5%;
+}
+.text-2 ul {
+    list-style-position: inside;
+    list-style-type: circle;
+   }
+   .text-3 li {
+    width: 65%;
+    float: left;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #d4e2d4;
+    text-align: center;
+    font-weight: bolder;
+    padding-right: 5%;
+
+}
+.text-3 p {
+    width: 65%;
+    float: left;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #d4e2d4;
+    text-align: center;
+    font-weight: bolder;
+    padding-right: 5%;
+    padding-top: 20px;
+}
+.text-3 ul {
+    list-style-position: inside;
+    list-style-type: circle;
+   }
+
+.skills:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* grid */
+.title-3 h1 {
+    width: 55%;
+    float: left;
+    padding-left:22%;
+    font-family:'Orelega One', cursive;
+    font-size: 50px;
+    background-color: #ffe5e3;
+    text-align: center;
+    font-weight: lighter;
+   
+}
+.title-3 h1:after {
+     content: "";
+    display: block;
+    clear: both;
+}
+
+
+.grid { 
+    margin-left: 12% ;
+}
+.gd {
+   display: block;
+    float: left;
+    width: 20%;
+    padding: 10px 10px 10px 10px; 
+    
+}
+.gd img { 
+    width: 100%;
+    border-radius: 10px;
+      
+  }
+
+.gd img:hover { 
+    transform: scale(1.25);
+    transition: 0.3s;
+    cursor: pointer;
+    
+  }
+  .art {
+    display: block;
+     float: left;
+     width: 20%;
+     padding: 10px 10px 10px 10px; 
+     
+ }
+ .art img { 
+     width: 100%;
+     border-radius: 10px;
+       
+   }
+ 
+ .art img:hover { 
+     transform: scale(1.25);
+     transition: 0.4s ease;
+     cursor: pointer;
+     
+     
+   }
+   .projects h3 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    color: seashell;
+    text-align: center;
+   }
+   .projects h3:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.projects::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* footer */
+.footer { 
+    background-color: seashell;
+   padding: 20px;
+   margin-block-start: 25px;
+    }
+.footer p {font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.footer:after { 
+    content:"";
+    display: block;
+    clear: both;}
