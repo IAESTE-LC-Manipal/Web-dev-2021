@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+.header{
+    text-align:left;
+    padding: 15 15 15 15;
+    background-color:rgb(30, 45, 90);
+}
+
+.header h1{
+    font-size: 50px;
+    font-family:serif;
+    color:rgba(110, 139, 224, 0.863);
+}
+
+.header h2{
+    font-size: 20px;
+    font-family: serif;
+    color: rgba(110, 139, 224, 0.863);
+}
+.picture img{
+    border: #393e46;
+    align-self: center;
+}
+
+.leftcolumn{
+    float: left;
+    width: 50%;
+}
+
+.rightcolumn{
+    float: right;
+    width: 50%;
+}
+
+.card1{
+    padding: 100px;
+    padding-bottom: 100px;
+    background-color:rgba(110, 139, 224, 0.863);
+    font-size: 40px;
+    text-align: center;
+    color: rgb(30, 45, 90);
+}
+
+.card2{
+    padding: 100px;
+    padding-bottom: 100px;
+    background-color:rgb(30, 45, 90);
+    font-size: 40px;
+    text-align: center;
+    color: rgba(110, 139, 224, 0.863);
+}
+
+.card3{
+    padding: 100px;
+    padding-bottom: 100px;
+    background-color:rgb(30, 45, 90);
+    font-size: 40px;
+    text-align: center;
+    color: rgba(110, 139, 224, 0.863);
+}
+
+.card4{
+    padding: 100px;
+    padding-bottom: 100px;
+    background-color:rgba(110, 139, 224, 0.863);
+    font-size: 40px;
+    text-align: center;
+    color: rgb(30, 45, 90);
+}
+
+.footer{
+    background-color:rgb(245, 247, 255);
+    text-align:end;
+    padding: 20px;
+    padding-top: 20px ;
+}
