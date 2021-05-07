@@ -1,0 +1,63 @@
+body {
+    font-family: 'merienda', serif;
+    background-image: url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#header{
+    float: top;
+    font-size: large;
+    text-align: center;
+    
+}
+#header p{
+    font-size: 30px;
+}
+#header h1{
+    font-size: 40px;
+}
+
+#header:after{
+
+    
+    
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#about p{
+    
+    padding: 10px 10px 10px 10px;
+    font-size: 40px;
+    
+}
+
+    
+.icons{
+    float:right;
+    font-size: medium;
+    
+    top: 10px;
+    right: 15px;
+}
+.card img{
+    width: 64px;
+}
+
+#sketch img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      
+    }
+#sketch p{
+    font-size: 25px;
+    text-align: center;
+    
+
+}
+
+
