@@ -1,0 +1,100 @@
+
+*{box-sizing: border-box;
+    margin: 0;}
+
+.Box1{
+    background-color: #301b3f;
+    height: 420px;
+     font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    color: azure;
+    text-align: center;
+    padding-top: 80px;}
+
+
+
+.Box2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-family: 'New Tegomin', serif;
+   padding-right: 10%;
+   padding-left: 10%;
+ line-break: strict;
+}
+
+
+
+.Box3{ 
+    height: 200px;
+    width: 200px;
+    align-items: center;
+
+margin-top: 50px;
+margin-left: 50px;
+    float: left;}
+    
+    
+
+.Box4{ 
+    height: 190px;
+    width: 800px;
+margin-top: 50px;
+float: right;
+color: #693c72;
+font-size: 50px;
+font-family: 'Pangolin', cursive;
+padding-right: 10px;
+}
+
+.Box4a{font-size: 30px;
+ font-family: 'Pangolin', cursive;}
+
+
+
+
+
+.Box5{ 
+    height: 170px;
+    width: 800px;
+margin-top: 50px;
+float: right;
+color: #693c72;
+font-size: 50px;
+font-family: 'Pangolin', cursive;}
+
+.Box5a{
+    font-size: 30px;
+}
+
+
+.Box6{
+    height: 220px;
+    width: 220px;
+    align-items: center;
+
+margin-top: 50px;
+margin-left: 50px;
+    float: left;}
+
+
+
+.A{
+    height: 120px;
+    width: 12000px;
+margin-top: 50px;
+float: right;
+color: #693c72;
+font-size: 50px;
+font-family: 'Indie Flower', cursive;
+background-color: #301b3f;
+margin-left: 40px;
+}
+
+
+
+.right{
+    float: right;
+    color: white;
+    margin-right: 100px;
+    font-size: 20px;
+;}
