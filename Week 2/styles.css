@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    color: whitesmoke;
+    background-color: rgb(243, 203, 73);
+    font-size: large; 
+    text-align: right; 
+    padding: 30px
+    
+}
+.button1{
+    background-color: rgb(243, 203, 73); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    transition: all 0.3s ease 0s;
+}
+.button1:hover{
+    text-decoration: underline;
+}
+
+.intro_head{
+    font-size: 75px;
+    padding-top: 38px;
+    text-align: center;
+    font-weight: 600;
+}
+.intro{
+    font-size: xx-large;
+    padding: 50px 15% 125px;
+    text-align: center;
+    font-weight: 500;
+}
+.para_head{
+    padding: 50px 50px 0px;
+    font-size: 50;
+    font-weight: 600;
+}
+.button2{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.button2:hover {
+  background: #3071A9
+}
+
+
+
+.programming{
+    padding-left: 50px;
+    padding-right: 25%;
+    padding-bottom: 50px;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.writing{
+    padding-right: 50px;
+    padding-left: 25%;
+    padding-bottom: 50px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: right;
+}
+   
+.contact{
+    background-color:black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: black;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
