@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    background: #000; color: antiquewhite
+}
+.heading{
+    color: antiquewhite; font-family: 'Playfair Display', serif; text-align: center  ; font-size: 65px;
+    padding: 10 40 10 40
+
+}
+.heading h1{
+    font-size: 80px;
+}
+.Iaeste img{
+    height: 200px; width: 200px; float: left;
+}
+.card{
+    font-size: 40px; color: antiquewhite;
+}
