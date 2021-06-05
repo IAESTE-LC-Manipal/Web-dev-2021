@@ -1,0 +1,179 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bose</title>
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="style 2.0.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+
+    <!--Navnar-->
+    <nav id="navbar">
+        <h2><a href="#home"><span class="text-primary">BOSE</span>  Better Sound Through Research</a></h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">Features</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Order</a></li>
+            <li><a href="https://www.instagram.com/bose/"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Showcase Area -->
+    <header id="showcase"> 
+        <div class="showcase-content">
+            <div class="container">
+               <h1>THE REAL SOUND<br> <span class="text-primary">Listen Here...</span></h1> 
+               <img src="playy.png" id="icon">
+            </div>
+            <audio id="mySong">
+                <source src="website music.mp3" type="audio/mp3">
+            </audio>
+        
+           <script>
+               var mySong = document.getElementById("mySong");
+               var icon = document.getElementById("icon");
+        
+               icon.onclick = function(){
+                   if(mySong.paused){
+                       mySong.play();
+                       icon.src="pausee.png";
+                   }else{
+                       mySong.pause();
+                       icon.src="playy.png";
+                   }
+               }
+           </script>
+        </div>
+    </header>
+
+    <!--Section:About-->
+    <section id="about">
+        <div class="container">
+           <h2 class="about-heading">Get to Know <span class="text-primary">Bose</span></h2> 
+           <div class="about-content">
+            <div class="about-text">
+                  <h3>A Little Bit <span class="text-primary">About Us</span></h3>
+                  <p class="lead">Better sound is just the beginning. We're passionate engineers, developers, researchers, retailers, marketers … and dreamers. One goal unites us—to create products and experiences our customers simply can't get anywhere else. If you want to hear more, we invite you to explore.</p>
+                  <p class="lead">At Bose, we have a passion for doing things that are better. We apply the highest level of scientific inquiry and invention to the discovery of new concepts and the development of new products. We create experiences for our customers that are enlightening, unique and delightful. We seek to develop an environment that challenges us to pursue excellence and to reach our fullest human potential.</p>
+                  <p class="lead">We have a simple mission: think of better solutions, create better products, help people enjoy the things they love. Everything we do supports this mission and points us forward. </p>
+            </div>
+              <div class="about-image">
+                <img src="bose2.png" alt="Picture of Product">
+              </div> 
+           </div>
+        </div>
+    </section>
+
+<!-- Section: features -->
+<section id="features">
+    <div class="container">
+        <h2>Here Is What <span class="text-primary">We Have to Offer</span></h2>
+        <div class="boxes">
+           <div class="box">
+               <h3>Bose Headphones 700</h3>
+               <div class="feature">
+                   <i class="fa fa-star"></i>Controllable Noise Cancelling
+               </div>
+               <div class="feature">
+                <i class="fa fa-star"></i> Charging Case
+            </div>
+           <div class="features">
+                <i class="fa fa-star"></i> Touch Controls
+            </div>
+            <div class="feature">
+                <i class="fa fa-star"></i> 20hrs Battery
+            </div>
+           </div> 
+           <div class="box">
+            <h3>Our Services</h3>
+            <div class="feature">
+                <i class="fa fa-user"></i> Repairing
+            </div>
+            <div class="feature">
+             <i class="fa fa-user"></i> Replacement  
+         </div>
+         <div class="feature">
+             <i class="fa fa-user"></i> Warranty
+         </div>
+         <div class="feature">
+             <i class="fa fa-user"></i> Free Returns 
+         </div>
+        </div> 
+        </div>
+    </div>
+</section>
+
+<!-- Section: Reviews -->
+
+<section id="reviews" class="reviews">
+    <div class="container">
+        <div class="reviews-wrapper-center">
+            <h2>What do people <span class="text-primary">say about Bose</span></h2>
+            <div class="boxes">
+                <div class="box">
+            <div class="review-item active">
+                <p class="text">Noise cancellation and audio quality exceeded my expectations. If you can afford it, buy iy. If you cannot afford it, find a part time job so you can by it.</p>
+                <h3> - Sam Jordan -</h3>
+                </div>
+            </div>
+                 <div class="box">
+            <div class="review-item active">
+                <p class="text">The bass is nice, clean and ounchy and the rest is pretty good for bluetooth headphones. Noise cancellation and audio quality are top notch.</p>
+                <h3> - Matt -</h3>
+                 </div>
+            </div>
+                 <div class="box">
+            <div class="review-item active">
+                <p class="text">Super comfortable. I am not an audiophile but these sounds are amazing. Dual device connection is also great. Love the noise cancellation!</p>
+                <h3> - Emily -</h3>
+                 </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- Section: Order -->
+<section id="order">
+    <div class="container">
+        <h2>Want to <span class="text-primary">Order Something?</span></h2>
+        <div class="form-container">
+            <div class="mail-icon"><i class="fa fa-envelope"></i></div>
+            <div class="form-box">
+                <h3>Send Us Your <span class="text-primary">Order</span></h3>
+                <form>
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" placeholder="Enter Your Full Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="corporation-name">Account Details</label>
+                        <input type="text" placeholder="Enter Card Number and CVV number">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Phone Number</label>
+                        <input type="text" placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Order Details</label>
+                        <textarea rows="7" placeholder="Enter Your Order Details"></textarea>
+                    </div>
+                    <input type="submit" value="Place Order" class="contact-btn"> 
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark">
+    <p> Copyright &copy; Bose Website</p>
+</footer>
+
+</body>
+</html>
