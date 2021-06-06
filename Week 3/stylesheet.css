@@ -1,0 +1,170 @@
+body
+{
+   background-color: gainsboro;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1,h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h5{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Logo {
+    float: left;
+}
+
+.navbar {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    
+  }
+
+li {
+    float: right;
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 12px;
+    font-weight: bolder;
+  }
+
+  
+
+.sofa {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       max-width: 65%;      
+  }
+
+
+
+.Slide img {
+  vertical-align: middle;
+}
+
+.slideContainer{
+  max-width: 980px;
+  max-height: 530px ;
+  position: relative;
+  overflow:hidden;
+  margin: auto;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.feature{
+      overflow: hidden;
+
+}
+
+
+
+ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    list-style-type:circle;
+    text-align: center;
+    color: rgb(6, 59, 61);
+    font-weight: bolder;
+}
+
+.sale img {
+  border: black;
+  border-width: 10px solid thick;
+  padding: 15px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightslategray;
+}
+
+button {
+  background-color:lightslategray;
+  color:black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:  35px;
+  border: 5px solid thick;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sale form {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  color:black;
+  background-color: lightslategray;
+  text-align: center;
+}
+    
+
+.more {
+  color: black;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 45px;
+}
+
+.gallery:hover {
+  border:  solid #777
+}
+
+.gallery img {
+  width: 50%;
+  height: auto;
+  border: black;
+  border-width: 2px;
+}
+
+.check {
+  color:white;
+  margin: 2em;
+  border: black;
+  background-color: black;
+  border-width: 10px;
+}
+
+footer {
+  background-color: black;
+  color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
