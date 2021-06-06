@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ad</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div id="home">
+        
+            <div id="change" class="navbar">
+                <div class="logo">
+                    <img id="logo" src="https://imgur.com/nGjYsxB.png" alt="logo" width="125px">
+                </div>
+                <nav>
+                    <ul id="menu-items" class="normal">
+                        <a href="#home"><li>HOME</li></a>
+                        <a href="#features"><li>FEATURES</li></a>
+                        <a href="#colors"><li>PRODUCTS</li></a>
+                        <a href="#spec"><li>PRODUCT DETAILS</li></a>
+                        <a href="#contact"><li>CONTACT</li></a>
+                    </ul>
+                </nav>
+                <div class="menu" onclick="menutoggle()"><i id="menu-icon" class='fa fa-bars'></i></div>
+            </div>
+            
+            <div class="firstPage">
+                <div class="col-1 intro">
+                    <h1>Listening  in style!</h1>
+                    <a href="#features"><button><b>EXPLORE NOW &#8594;</b></button></a>
+                    <div class="explore"><b>SCROLL DOWN TO EXPLORE</b></div>
+                </div>
+                <div class="col-1">
+                    <img src="https://imgur.com/hg9SG3g.png" alt="pic">
+                </div>
+            </div>
+
+    </div>
+
+    <div id="features">
+        <!-- <hr class="banner"> -->
+
+            <div class="row" style="margin-bottom: 30px; justify-content:center;">
+                <hr class="line">
+                <h2>FEATURES</h2>
+                <hr class="line">
+            </div>
+            <div class="row">
+                <div class="infoBox">
+                    <div><i class='fa fa-bluetooth'></i></div>
+                    
+                    <div class="info">
+                        Wireless, bluetooth headset with a range of 15m
+                    </div>
+                </div>
+                <div class="infoBox">
+                    <div><b>20H</b></div>
+                    <div class="info">
+                        Non-stop luxury sound with 20hrs playtime
+                    </div>
+                </div>
+                <div class="infoBox">
+                    <div><i class='fa fa-music'></i></div>
+                    <div class="info">
+                        Noise cancelling headphones with deep bass
+                    </div>
+                </div>
+                <div class="infoBox">
+                    <div><i class='fa fa-headphones'></i></div>
+                    <div class="info">
+                        Ultra soft ear cushions for maximum comfort
+                    </div>
+                </div>
+            </div>
+
+    </div>    
+
+    <div id="colors">
+            <div class="heading">
+                <b>Check out the different colors !!</b>
+            </div>
+            <div class="row">
+                <div class="hpimgs">
+                    <img id="diffcolors" src="https://imgur.com/hg9SG3g.png" alt="">
+                </div>
+                <div class="col-2">
+                    <div class="instruction"><b>CLICK</b> on the colors to explore<br>the wide range of colors in our headphones</div>
+                    <div class="hpcolors">
+                        <button onclick="showBlack()"><i class='fa fa-circle'></i></button>
+                        <button class="c2button" onclick="showc2()"><i class='fa fa-circle'></i></button>
+                        <button class="c3button" onclick="showc3()"><i class='fa fa-circle'></i></button>
+                        <button class="c4button" onclick="showc4()"><i class='fa fa-circle'></i></button>
+                        <br>
+                        <button class="c5button" onclick="showc5()"><i class='fa fa-circle'></i></button>
+                        <button class="c6button" onclick="showc6()"><i class='fa fa-circle'></i></button>
+                        <button class="c7button" onclick="showc7()"><i class='fa fa-circle'></i></button>
+                        <button class="c8button" onclick="showc8()"><i class='fa fa-circle'></i></button>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="add-on">
+            <div class="instruction">For all you funky ones out there<br>Headgear headphones comes with ADD-ONS</div>
+            <div class="row">
+                <div class="add">
+                    <img src="https://imgur.com/knrmfUy.png" alt="">
+                    <p>Devil's horn</p>
+                </div>
+                <div class="add">
+                    <img src="https://imgur.com/sXF8MV7.png" alt="">
+                    <p>Cat ears</p>
+                </div>
+                <div class="add">
+                    <img src="https://imgur.com/Q6OAQLb.png" alt="">
+                    <p>Dog ears</p>
+                </div>
+            </div>
+    </div>
+
+    
+    <!-- spcifications -->
+    <div id="spec">
+            <div class="row">
+                <h2>PRODUCT INFORMATION</h2>
+                <div class="details">
+                    <div class="instruction"><b>TECHNICAL DETAILS</b></div>
+                    <table>
+                        <tr>
+                            <th class="blueBox">Brand</th>
+                            <th class="blueBox">Headgear</th>
+                        </tr>
+                        <tr>
+                            <th>Model</th>
+                            <th>HG011</th>
+                        </tr>
+                        <tr>
+                            <th class="blueBox">Pricing</th>
+                            <th class="blueBox">1999 INR</th>
+                        </tr>
+                        <tr>
+                            <th>Batteries</th>
+                            <th>1 Lithium ion battery(included)</th>
+                        </tr>
+                        <tr>
+                            <th class="blueBox">Charging time</th>
+                            <th class="blueBox">2 hours</th>
+                        </tr>
+                        <tr>
+                            <th>Battery average life</th>
+                            <th>20 hours</th>
+                        </tr>
+                        <tr>
+                            <th class="blueBox">Hardware Platform</th>
+                            <th class="blueBox">PC, Tablet, Smartphone</th>
+                        </tr>
+                        <tr>
+                            <th>Headphones forme factor</th>
+                            <th>On ear</th>
+                        </tr>
+                        <tr>
+                            <th class="blueBox">Microphone form factor</th>
+                            <th class="blueBox">Built-in</th>
+                        </tr>
+                        <tr>
+                            <th>Connector type</th>
+                            <th>Wireless</th>
+                        </tr>
+                        <tr>
+                            <th class="blueBox">Material</th>
+                            <th class="blueBox">Faux leather</th>
+                        </tr>
+                        <tr>
+                            <th>Weight</th>
+                            <th>500g</th>
+                        </tr>
+                        <tr>
+                            <th class="blueBox">Country of origin</th>
+                            <th class="blueBox">India</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="footer">
+            <h2><b>CONTACT US</b></h2>
+            <div class="row">
+                <div class="contactBox">
+                    <b>FOR COMPLAINTS</b><br>
+                    E-mail: support@headgear.com<br>
+                    Phone: (+91)9988-777-666<br>
+                    Timings: 10:00 A.M. - 07:00 P.M.
+                </div>
+                <div class="contactBox">
+                    <b>FOR BUSINESS QUERIES</b><br>
+                    info@headgear.com<br>
+                    (+91)9988-777-666<br>
+                    Timings: 10:00 A.M. - 07:00 P.M.<br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="media">
+                   
+                    <a href="" target="_blank">
+                        <i class="fa fa-linkedin-square"></i>  
+                    </a> 
+                               
+                    <a href="" target="_blank"> 
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    
+                    <a href="" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">&#169; Copyright</div>
+        </div>  
+    </div>
+    <!-- https://www.freepik.com/free-photo/headphones-audio-listen_1123490.htm#page=1&query=headphone%20&position=46 -->
+</body>
+</html>
