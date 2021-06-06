@@ -1,0 +1,109 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #ffffff;
+    align-self: center;
+}
+.intro-card{
+    text-align: center;
+}
+.intro-card img{
+    border-radius: 5px;
+}
+.intro-card img:hover{
+    transform: scale(1.75);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.3s;
+
+}
+.container{
+
+    text-align: center;
+}
+.carousel-inner{
+    padding: 50px 50px 50px 50px;
+
+}
+.carousel-inner img{
+    border-radius: 10px;
+}
+.carousel-inner img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+.carousel-indicators li{
+    color: black;
+    
+}
+
+
+
+
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+  
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+}
+  
+.bg3 {
+    animation-duration:5s;
+ }
+  
+
+  
+@keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+}
+
+.footer{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
+
+.sales{
+    text-align: center;
+    margin: auto;
+    background-color: #6c3;
+    width: max-content;
+    border-radius: 10px;
+    
+}
+.sales ul{
+    list-style: none;
+}
+.learn {
+    text-align: center;
+}
+a:link, a:visited {
+    
+    background-color: #09f;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+  
+a:hover, a:active {
+    background-color:#6c3;
+}
