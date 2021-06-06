@@ -1,0 +1,752 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+
+}
+.container{
+  max-width: 1400px;
+    margin: auto;
+
+}
+.logo{  margin: 25px;
+}
+.row
+{display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.content
+{display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.horizontal ul {
+  list-style-type: none;
+  margin-right: 5%;
+  overflow: hidden;
+  padding-top: 1.5%;
+  padding-left: 1.5%;
+}
+
+.horizontal li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.horizontal li {
+  float: right;
+  text-transform: uppercase;
+}
+
+.horizontal li:last-child {
+  border-right: none;
+}
+
+.horizontal li a:hover {
+  background-color:darkslateblue;
+}
+
+.header
+
+{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url(https://content.paulreiffer.com/wp-content/uploads/2013/05/IMG_4726_web@2x.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  
+  }
+.header p{
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+top: 30%;
+left: 9%;
+  font-size: 80px;
+}
+
+
+.text-box { 
+  width: 90%;
+  color: #ffffff;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  text-align: center;
+
+}
+.text-box h4{
+  font-size: 40px;
+
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor: pointer;}
+
+.Boxes{
+margin: 0px 0;
+  max-width: 90%;
+ margin-left: 50px;
+  align-self: center;
+display: flex;
+border-radius: 20%;
+}
+.Box{
+flex-basis: 100%;
+width: 50px;
+padding-top: 5%;
+align-content: center;
+font-size: 20px;
+color: grey;
+
+}
+.Box1{
+  text-align: justify;
+  border: 1px;
+  padding-left: 50px;
+}
+.Box1 ul{
+  display: inline-table;
+}
+.Box1 li{
+  list-style:disc;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+padding: 20px;}
+
+
+.features{
+  max-height: 600px;
+  margin: auto;
+
+}
+
+  .S-pen{
+   margin: 40px auto;
+   height: 100%;
+   width: 100%;
+   background: url(https://images.samsung.com/is/image/samsung/p5/in/smartphones/galaxy-note10-lite/t-shirt.jpg?$ORIGIN_JPG$) ;
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+  ;}
+
+   .features p {
+    font-size: 60px;
+    line-height: 60px;
+    margin: 25px 0;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: rgb(10, 36, 63);
+  
+
+   }
+   .features h3 {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: 'Noto Sans JP', sans-serif;
+   }
+   .s-container .col1{
+     border: 2px solid cornflowerblue; 
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+
+     }
+.col1{
+  font-size: 20px;
+flex-basis: 20%;
+text-align: center;
+min-width: 250px;
+font-size: 15px;
+border: 2px solid rgba(0,0,0,0.5);
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+.col1 h2{
+  padding-top: 50px;
+}
+   .col1 img{
+    position:relative;
+    margin-top: 20px;
+    }
+.col1 h4{
+  text-align: justify;
+  padding: 30px;
+  
+
+}
+    .s-container{
+      margin: auto;
+      padding-left: 25px;
+      padding-right: 25px;
+      
+    }
+
+.text{
+
+      margin: 40px auto;
+      height: 100%;
+      width: 100%;
+      background: url(https://www.mobiledokan.co/wp-content/uploads/2019/12/Note-10-Plus-Camera-app-1024x576.jpg) ;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+    
+  
+  .text ul{
+    display: inline-table;
+    float: left;
+    margin-top: 20px;
+  padding-left: 50px;}
+
+    
+  .text li{
+list-style: none;
+box-shadow: 0 5 15px rgba(131, 102, 209, 0.8);
+background: rgba(255,255,255,0.7);
+padding: 25px;
+margin-top:  30px;
+margin-right: 60px;
+text-align: center;
+font-size: 23px;
+text-decoration: underline;
+text-decoration: plum;
+border-radius: 20%;
+
+}
+
+.text li:hover img{
+  transform: scale(1.1);
+}
+
+  
+   
+
+.Box5{
+  position: relative;
+  column-count: 3;
+  padding: 30px;
+ 
+}
+.Image{
+  display: inline-block;
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+  
+.Box5 img{
+  width: 100%;
+  transition: 0.25s ease-in-out;
+
+}
+.Image:hover img{
+  transform: scale(1.1);
+}
+h1{
+  position: absolute;
+  
+  padding: 5px;
+  margin: 5px;
+  font-size: 35px;
+  background:palevioletred;
+  color: #ffffff;
+  border-radius: 5px;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.25 ease-in-out;
+
+}
+.Image:hover h1{
+  opacity: 0.4;}
+
+  .products{
+    max-height: 330px;
+    margin: auto;
+  
+  }
+  
+
+  .products{
+    margin: 40px auto;
+    height: 100%;
+    width: 100%;
+    background: url(https://www.faboolus.com/images/promo/43/Mobile-Accessories-Mobile.jpg) ;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  opacity: 0.9;}
+
+    .products p{
+ 
+  background-color: white;
+  padding: 10px;
+   
+
+    }
+
+
+
+    .next .shop{ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);}
+
+      .shop{
+        font-size: 20px;
+      flex-basis: 25%;
+      text-align: center;
+      min-width: 250px;
+      font-size: 15px;
+      }
+      .shop h2{
+        padding: 30px;
+      }
+         .shop img{
+          position:relative; 
+          margin-top: 20px;
+          }
+          .Box8{
+            margin: auto;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-top: 100px;
+          }
+    .shop p{
+      text-align: center;
+      font-size: 30px;
+    }
+ .peep{
+   align-items: center;
+   padding: 30px;
+ 
+ }   
+
+ 
+ .offer{
+  max-height: 150px;
+
+  margin: auto;
+ }
+
+.offer{
+
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://blueprint-api-production.s3.amazonaws.com/uploads/story/thumbnail/108818/d4c34857-6d27-421c-8835-dd0bc4868071.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  opacity: 0.9;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);}
+
+  .free h5{
+    text-align: center;
+    color: cornsilk;
+    font-size: 15px;
+    padding-right: 2%;
+    padding-left: 2%;
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+  }
+.free p{
+  font-size: 40px;
+  text-align: center;
+  line-height: 5px;
+  text-align: center;
+  color: blue;
+padding-top: 3%;
+padding-bottom: 1%;
+Outline: none;
+animation: animate 5s linear infinite;}
+
+@keyframes animate{
+  0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+  {
+    color: #0047AB;
+    text-shadow: none;
+  }
+  18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+  {
+    color: white;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4,
+  }
+}
+.free b{
+  color: yellow;
+}
+
+  .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+  }
+  .footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+  font-size: 30px; 
+  color: black;}
+  .footer p{
+    color: grey;
+    font-size: 20px;
+    line-height: normal;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .icons .fa{
+    color: rgb(193, 86, 214);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;}
+
+      .wrapper{
+      display: flex;
+      font-size: 80px;
+      margin-left: 110px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .wrapper .static-txt{
+      color: black;
+      font-size: 60px;
+      font-weight: 400;
+text-align: center;    }
+
+    .wrapper .dynamic-txts{
+      margin-left: 15px;
+      height: 90px;
+      line-height: 90px;
+      overflow: hidden;
+    }
+    .dynamic-txts li{
+      list-style: none;
+      color: cornflowerblue;
+      font-size: 80px;
+      font-weight: 400;
+      position: relative;
+      top: 0;
+      animation: slide 12s steps(4) infinite;
+    }
+    @keyframes slide {
+      100%{
+        top: -360px;
+      }
+    }
+    .dynamic-txts li span{
+      position: relative;
+      margin: 5px 0;
+      line-height: 90px;
+    }
+    .dynamic-txts li span::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: white;
+      border-left: 2px solid #03bcf4;
+      animation: typing 3s steps(10) infinite;
+   
+    }
+
+    @keyframes typing {
+      40%, 60%{
+        left: calc(100% + 30px);
+      }
+      100%{
+        left: 0;
+      }
+    }
+    .card {
+      margin: auto 0;
+      width: 97%;
+      height: 350px;
+      padding-left: 2%;
+
+    }
+    
+    .card__inner {
+      width: 100%;
+      height: 100%;
+      transition: transform 1s;
+      transform-style: preserve-3d;
+      cursor: pointer;
+      position: relative;
+    }
+    
+    .card__inner.is-flipped {
+      transform: rotateY(180deg);
+    }
+    
+    
+    .card__face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    }
+   
+    
+    .card__face--front {
+      background-image: url(https://hallmark.brightspotcdn.com/dims4/default/8ca1696/2147483647/strip/true/crop/1920x1008+0+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fhallmark-channel-brightspot.s3.amazonaws.com%2F8a%2F2a%2F335dbdbd2067a0b00e365ed06508%2Fwinter-background-3.jpg);
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .card__face--front h2 {
+      color: whitesmoke;
+      font-size: 50px;
+      text-align:center;
+      margin-top: 8%;
+    }
+    .card__face--front p {
+      color: purple;
+      font-size: 20px;
+      text-decoration: underline;
+     background-color: white;
+     margin-bottom: 30px;
+
+    }
+    
+    .card__face--back {
+      background-color: var(--light);
+      transform: rotateY(180deg);
+    }
+    
+    .card__content {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .card__header {
+      position: relative;
+      padding: 10px 10px 10px;
+    }
+    
+    .card__header:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvPMoY8RnaNuw87h0Na9tGJWlMpYyn5N7Imc-h5bGRmAM4U4_35LZa_QGemBiZLu7B60&usqp=CAU);
+      z-index: -1;
+      border-radius: 0px 0px 50% 0px;
+    }
+    
+  
+    .card__body {
+      padding: 0px;
+      background-image: url(https://www.teahub.io/photos/full/12-122470_1080x1920-watercolor-flower-find-more-watercolor-watercolor.jpg);
+
+    }
+    
+    .card__body h3 {
+      color: rgb(75, 118, 238);
+      font-size: 50px;
+
+      margin-bottom: 0px;
+      font-family: 'Sigmar One', cursive;
+      font-family: 'Staatliches', cursive;
+    }
+    
+    .card__body p {
+      color: cadetblue;
+      font-size: 35px;
+      font-family: 'Sigmar One', cursive;
+      font-family: 'Staatliches', cursive;
+    }
+    .card__body h2{
+      color: black;
+      font-size: 30px;
+      line-height: 1.4;
+      text-decoration-line: line-through;
+      text-align: center;
+      font-family: 'Sigmar One', cursive;
+font-family: 'Staatliches', cursive;
+    }
+    .card__body b {
+      color: rgb(75, 118, 238);
+      font-size: 35px;
+      font-family: 'Sigmar One', cursive;
+      font-family: 'Staatliches', cursive;
+    }
+  
+  
+
+  
+    @media only screen and (max-width:500px) {  
+    
+      .body{overflow-x: hidden;}
+       .wrapper{display: none;}
+       .Box5{display: none;}
+  
+   
+       
+       .header
+   
+   {
+     min-height: 100vh;
+     width: auto;
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url(https://content.paulreiffer.com/wp-content/uploads/2013/05/IMG_4726_web@2x.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+  }
+   .header p{
+   
+   left: 2%;
+   right: 2%;
+     font-size: 30px;
+   }
+   
+   
+   .text-box { 
+   
+     top: 60%;
+     left: 5%;
+     right: 5%;
+   
+   
+   }
+   .text-box h4{
+     font-size: 20px;
+   }
+       .horizontal li a {
+       
+         padding: 14px 5px;}
+       
+       .horizontal li {
+      
+         font-size: 8px;
+       }
+   .col1{
+   flex-basis: 100%;
+   margin-bottom: 30px;
+   margin-top: 20px;
+   
+   
+   }
+   .features p {
+     font-size: 25px;
+     line-height: 40px;
+     margin: 15px 0;
+   }
+     
+    .features h3 {
+     margin: 5px 0;
+     font-size: 15px;
+     padding-right: 3%;
+     padding-left: 3%;
+     overflow-x: hidden;
+    
+    
+   
+    }
+    .S-pen{
+     background: url(https://www.speedmagazine.ph/wp-content/uploads/2019/09/samsung-note10.jpg)
+    ;
+    }
+    .s-container{
+     margin: auto;
+     padding-left: 5px;
+     padding-right: 5px;}
+    
+   
+   
+   .free p{
+   font-size: 30px;
+   line-height: 40px;
+   padding: 10px;}
+   
+   
+   
+   .next .shop{ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);}
+   
+   .shop{
+   flex-basis: 100%;
+   margin-bottom: 30px;
+   
+   }   
+   .products{
+   
+     width: 80%;
+     background: url(https://media.istockphoto.com/photos/charging-cables-for-smartphone-and-tablet-picture-id1034427464?k=6&m=1034427464&s=612x612&w=0&h=pxaC3_NwwZWFonQD7HRrV8vBmkMu0UD6WeNaEniu8WI=) ;
+   }
+   
+   
+   .footer p{
+     font-size: 20px;
+     line-height: 30px;
+   
+   
+   }
+   
+   
+   .card__face--front h2 {
+    
+     font-size: 44px;
+     margin-top: 8%;
+   }
+   .card__face--front p {
+   
+     font-size: 20px;
+    margin-bottom: 10px;
+   
+         
+   }
+   .free h5{
+    display: none;
+   }
+    
+   .offer{
+     max-height: 100px;
+   
+     margin: auto;
+    }}
+  
+  
+  
+  
+  
+  
+  
+  
+   
